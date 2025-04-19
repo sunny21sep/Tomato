@@ -1,33 +1,38 @@
 Live at : https://tomato25.netlify.app/
 
-# Tomato25
+# 🍅 Tomato25 - Food Ordering App (Frontend)
 
-## Overview
-Tomato25 is a web application designed to enhance productivity by implementing the Pomodoro Technique. The app helps users break work into intervals, typically 25 minutes in length, separated by short breaks to improve focus and efficiency.
+Tomato25 is a responsive and modern frontend for a food ordering application, built using **React** and **Tailwind CSS**. It provides a clean UI for browsing food items, adding them to a cart, and managing user sessions.
 
-## Features
-- Pomodoro Timer with customizable intervals
-- Short and long break options
-- Task management system
-- User-friendly UI/UX design
-- Responsive design for mobile and desktop users
-- Progress tracking and history
+---
 
-## Technologies Used
-- Frontend: HTML, CSS, JavaScript
-- Framework: React.js
-- Deployment: Netlify
+## 🚀 Features
 
-## Installation
-To run this project locally, follow these steps:
+- 🧭 **Smooth Navigation** – Simple and intuitive layout for browsing food categories
+- 🛒 **Cart Management** – Add, remove, and update items with real-time price calculation
+- 🔐 **User Authentication** – Login/logout functionality with session management
+- 💡 **State Management** – Efficiently handled using React Context API
+- 🌗 **Modern UI** – Tailwind-powered design with mobile responsiveness
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **State Management**: Context API
+- **Routing**: React Router
+
+---
+
+## 📦 Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sunny21sep/tomato25.git
+   git clone https://github.com/your-username/tomato-website-frontend.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd tomato25
+   cd tomato-website-frontend
    ```
 3. Install dependencies:
    ```bash
@@ -38,33 +43,35 @@ To run this project locally, follow these steps:
    npm start
    ```
 
-## Usage
-1. Open the application in a browser at `http://localhost:3000/`
-2. Set your task and start the Pomodoro timer
-3. Take short or long breaks as required
-4. Track progress and adjust settings as needed
+---
 
-## Deployment
-This project is deployed using Netlify. To deploy manually:
+## 📁 Folder Structure
 
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-2. Deploy the `build/` folder to Netlify.
+```
+tomato-website-frontend/
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+└── package.json
+```
 
-## Contributing
-Contributions are welcome! To contribute:
-- Fork the repository
-- Create a new branch (`feature-branch`)
-- Commit changes and push to your branch
-- Open a pull request
 
-## License
-This project is licensed under the MIT License.
+## 🤝 Contributing
 
-## Contact
-For any queries or contributions, contact:
-- **Developer:** Sunny Kumar
-- **Email:** sunny.kumar210904@gmail.com
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+
 
